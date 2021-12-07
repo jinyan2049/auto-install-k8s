@@ -96,3 +96,8 @@
   script: kubelet.sh
   ignore_errors: yes
 
+- name: 优化kubectl自动补全
+  script: bash-completion.sh
+  ignore_errors: yes
+
+
